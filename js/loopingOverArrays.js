@@ -42,12 +42,30 @@ console.log(line + "\n");
 // Example 3 - Copying elements from one array to another
 
 let nationalParks = ["Yellowstone", "Gateway Arch", "Glacier", "Zion", "Shenandoah", "Everglades"];
+let nationalParks2 = ["Joshua Tree", "Grand Canyon", "Rocky Mountain", "Yosemite"];
 
-let nationalParksFullNames = [];
+// TODO: Create a function that will take an array of partial names and return a new array with "National Park" added to the end of each name
+function getFullParkNames(names) {
+  // Create a new array to hold the full names
+  let fullParkNames = [];
+  
+  // Create a new string for each park with its full name and put it in the new array
+  for (let i = 0; i < names.length; i++) {
+    let fullName = names[i] + " National Park";
+    fullParkNames.push(fullName);
+  }
 
-for (let i = 0; i < nationalParks.length; i++) {
-  let fullName = nationalParks[i] + " National Park";
-  nationalParksFullNames.push(fullName);
+  // Return the new array
+  return fullParkNames;
 }
 
-console.log(nationalParksFullNames);
+// TODO: For the first array of names, call your function and save the result in a new variable, then print the variable.
+let nationalParkNames = getFullParkNames(nationalParks);
+console.log(nationalParkNames);
+
+// TODO: Print the resulting value of calling the function and passing in the second list of names
+console.log(getFullParkNames(nationalParks2));
+
+// TODO: Print the original arrays to demonstrate they haven't changed.
+console.log(nationalParks);
+console.log(nationalParks2);
