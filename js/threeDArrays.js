@@ -10,26 +10,26 @@ let alpha = [
   ["h", "i"]
 ];
 
+// TODO: Create another array that has both nums and alpha as elements, then print it
 let allData = [nums, alpha];
-
 console.log(allData);
 
-// Print all nums from allData
+// TODO: Print just nums from allData
 console.log(allData[0]);
 
-// Print 2
+// TODO: Print 2
 console.log(allData[0][0][1])
 
-// Print f
+// TODO: Print f
 console.log(allData[1][2][1]);
 
-// Print ["c", "d"]
+// TODO: Print ["c", "d"]
 console.log(allData[1][1]);
 
-// Add letter y with bracket notation after d
+// TODO: Add letter y with bracket notation after d and print allData
 allData[1][1][2] = "y";
 console.log(allData);
 
-// Add letter z with .push() after y
+// TODO: Add letter z with .push() after y and print allData
 allData[1][1].push("z");
 console.log(allData);
