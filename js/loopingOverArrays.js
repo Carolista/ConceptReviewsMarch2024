@@ -5,6 +5,7 @@ const input = require('readline-sync');
 
 let typesOfApples = ["Fuji", "Red Delicious", "MacIntosh", "Gala"];
 
+// TODO: Loop over the types of apples and print each one in a sentence.
 for (let i = 0; i < typesOfApples.length; i++) {
   console.log(`Gosh I'm hungry. I should have a ${typesOfApples[i]} apple as a snack!`);
 }
@@ -14,20 +15,25 @@ for (let i = 0; i < typesOfApples.length; i++) {
 
 let clientInfoNeeded = ["First Name: ", "Last Name: ", "Email Address: ", "Phone Number: "];
 
+// TODO: Create variables for each piece of data
 let firstName = "";
 let lastName = "";
 let email = "";
 let phone = "";
 
+// TODO: Put all four variables in an array in the same order as their prompt counterpart
 let clientInfoGathered = [firstName, lastName, email, phone];
 
+// TODO: Create a line of 32 asterisks to use for final printout
 let line = "*".repeat(32);
 
+// TODO: Ask for contact information and save to each variable in the second array
 console.log("\nPlease give us your contact information:\n");
 for (let i = 0; i < clientInfoNeeded.length; i++) {
   clientInfoGathered[i] = input.question(clientInfoNeeded[i]);
 }
 
+// TODO: Print a final recap to the user with each piece of data on a new line using a loop
 console.log("\n" + line);
 
 console.log ("Thank you for your information.\n \nSummary:\n");
