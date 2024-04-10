@@ -110,7 +110,7 @@ let address3 = {
 
 let addresses = [address1, address2, address3];
 
-// Print formatted functions
+// Print formatted addresses, numbered
 addresses.forEach(function (address, index) {
   console.log(`
 Address ${index + 1}:
