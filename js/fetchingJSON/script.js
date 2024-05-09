@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
     data.forEach(plant => {
       modern.innerHTML += `
       <div class="card">
-        <img src=${plant.image} style="float: left" width="50px" />
+        <img src=${plant.image} width="50px" />
         <div class="text-area">
           <h4 class="upper">${plant.color} ${plant.name}</h4>
           <p>${plant.numAvailable} available</p>
