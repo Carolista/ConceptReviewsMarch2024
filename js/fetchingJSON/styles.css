@@ -1,0 +1,38 @@
+body {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+#modern {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  min-width: 240px;
+  max-width: 300px;
+  padding: 10px;
+  border: 4px solid darkgreen;
+}
+
+.text-area {
+  margin-left: 15px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
