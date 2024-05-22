@@ -32,6 +32,8 @@ public abstract class PlaygroundEquipment
         List<string> materials
     )
     {
+        id = nextId;
+        nextId++;
         Name = name;
         this.height = height;
         this.width = width;
@@ -50,15 +52,16 @@ public abstract class PlaygroundEquipment
     // Instance methods
     public void PrintSpecifications()
     {
-        Console.WriteLine("Name: " + Name);
+        Console.WriteLine(Environment.NewLine + "Name: " + Name);
         Console.WriteLine("Dimensions (ft): " + height + "H x " + length + "L x " + width + "W");
         Console.WriteLine("Materials: " + string.Join(", ", materials));
         Console.WriteLine("Minimum clearance (ft): " + minClearance);
+        Console.WriteLine("Minimum area needed (sqft): " + GetMinArea() + Environment.NewLine);
     }
 
     public double GetMinArea()
     {
-        return (length + minClearance) * (width + minClearance);
+        return (length + minClearance * 2) * (width + minClearance * 2);
     }
 
     public void CloseForRepairs()

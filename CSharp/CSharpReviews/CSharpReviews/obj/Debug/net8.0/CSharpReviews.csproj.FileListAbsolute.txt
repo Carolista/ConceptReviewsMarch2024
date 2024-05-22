@@ -1,0 +1,15 @@
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.GeneratedMSBuildEditorConfig.editorconfig
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.AssemblyInfoInputs.cache
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.AssemblyInfo.cs
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.csproj.CoreCompileInputs.cache
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.sourcelink.json
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/bin/Debug/net8.0/CSharpReviews
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/bin/Debug/net8.0/CSharpReviews.deps.json
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/bin/Debug/net8.0/CSharpReviews.runtimeconfig.json
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/bin/Debug/net8.0/CSharpReviews.dll
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/bin/Debug/net8.0/CSharpReviews.pdb
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.dll
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/refint/CSharpReviews.dll
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.pdb
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/CSharpReviews.genruntimeconfig.cache
+/Users/CRJ/Coding/LaunchCode/FTWD-2024-Mar/ConceptReviewsMarch2024/CSharp/CSharpReviews/CSharpReviews/obj/Debug/net8.0/ref/CSharpReviews.dll

@@ -1,8 +1,8 @@
 ﻿namespace CSharpReviews;
 
-public class MonkeyBars : PlaygroundEquipment
+public class JungleGym : PlaygroundEquipment
 {
-    public MonkeyBars(
+    public JungleGym(
         string name,
         double height,
         double width,

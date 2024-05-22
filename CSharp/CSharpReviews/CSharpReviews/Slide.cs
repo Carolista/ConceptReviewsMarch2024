@@ -21,5 +21,9 @@ public class Slide : PlaygroundEquipment
         }
         NumKids = numberOfKids;
         Console.WriteLine("Wheeeeeeeeeeeeeeeeee!");
+        if (materials.Contains("metal"))
+        {
+            Console.WriteLine("Ouch! My legs!");
+        }
     }
 }

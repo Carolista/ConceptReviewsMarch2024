@@ -9,8 +9,9 @@ public class Playground
 
     public void AddEquipment(PlaygroundEquipment equipment, double area)
     {
-        if (area <= equipment.GetMinArea()) {
-            equipmentList.Add(equipment);     
+        if (area >= equipment.GetMinArea()) {
+            equipmentList.Add(equipment);
+            Console.WriteLine(equipment.Name + " added.");     
         }
         else 
         {
